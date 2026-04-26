@@ -20,7 +20,6 @@ In utility billing systems, incorrect readings or calculation errors may lead to
 
 * Implement slab-based billing logic
 * Validate meter readings
-* Use interface-based design
 * Handle invalid inputs gracefully
 * Generate formatted receipt
 
@@ -66,6 +65,8 @@ SmartPay/
 ### Exception Handling
 
 * Custom exception for invalid readings
+
+* Previous Meter Reading" is not higher than the "Current Meter Reading." If it is     print an error message.
 
 ### Receipt Generation
 
